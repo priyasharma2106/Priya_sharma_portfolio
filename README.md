@@ -1,3 +1,80 @@
+# Priya Sharma — Portfolio
+
+A personal portfolio website showcasing my work in data analytics, 
+machine learning, and full-stack development.
+
+Built to reflect who I am as a developer — someone who starts with 
+data and builds around it.
+
+🔗 Live Site: [coming soon]
+
+---
+
+## About
+
+Hi, I'm Priya — a B.Tech ECE student (2027) from Bhopal, India.
+
+I spend most of my time working with data — exploring datasets, 
+finding patterns, building models, and then shipping something 
+people can actually use. This portfolio is a reflection of that 
+journey so far.
+
+It's not perfect. It's a work in progress, just like me.
+
+---
+
+## What's Inside
+
+- Who I am and what I work on
+- Projects I've built and problems I've solved
+- Skills I've picked up along the way
+- Hackathons and challenges I've participated in
+- Certifications and learning milestones
+- A way to reach me
+
+---
+
+## Tech Stack
+
+- **Framework** — Next.js 14
+- **Styling** — Tailwind CSS
+- **Animations** — CSS keyframes + React Fast Marquee
+- **Charts** — Recharts
+- **Icons** — React Icons
+- **Deployment** — Vercel
+
+---
+
+## Inspiration
+
+This portfolio was inspired by the design and structure of 
+[said7388/developer-portfolio](https://github.com/said7388/developer-portfolio).
+I rebuilt and customized it from scratch to make it my own — 
+different theme, different sections, different everything.
+
+Grateful to the original author for the open work.
+
+---
+
+## A Note
+
+I'm still learning. Every project on here taught me something 
+I didn't know before. If you spot something wrong, have feedback, 
+or just want to talk — my inbox is always open.
+
+---
+
+## Contact
+
+- 📧 priyasharma20012005@gmail.com
+- 💼 [LinkedIn](https://linkedin.com/in/priya-sharma-7238b12ba)
+- 🐙 [GitHub](https://github.com/priyasharma2106)
+- 🧩 [LeetCode](https://leetcode.com/u/priyasharma05/)
+
+---
+
+*Designed and built by Priya Sharma*
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
