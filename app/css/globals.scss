@@ -1,0 +1,98 @@
+@use "tailwindcss";
+
+:root {
+  --foreground-rgb: rgb(211, 216, 232);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #0a0a0a;
+  scrollbar-color: #f97316 #111111;
+  scrollbar-width: thin;
+}
+
+::selection {
+  background: #f97316;
+  color: #000000;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #f97316;
+  border-radius: 9999px;
+}
+
+.hacker-theme {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(249, 115, 22, 0.14) 0%, rgba(10, 10, 10, 0) 35%),
+    radial-gradient(circle at 85% 15%, rgba(251, 146, 60, 0.12) 0%, rgba(10, 10, 10, 0) 30%),
+    radial-gradient(circle at 50% 90%, rgba(249, 115, 22, 0.1) 0%, rgba(10, 10, 10, 0) 35%),
+    #0a0a0a;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.hacker-theme::before,
+.hacker-theme::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.hacker-theme::before {
+  background-image:
+    linear-gradient(rgba(249, 115, 22, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(249, 115, 22, 0.06) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: radial-gradient(circle at center, black 35%, transparent 100%);
+}
+
+.hacker-theme::after {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgba(249, 115, 22, 0.05),
+      rgba(249, 115, 22, 0.05) 1px,
+      transparent 2px,
+      transparent 4px
+    );
+  opacity: 0.22;
+}
+
+#sticky-card-1 {
+  --index: 1;
+}
+
+#sticky-card-2 {
+  --index: 2;
+}
+
+#sticky-card-3 {
+  --index: 3;
+}
+
+#sticky-card-4 {
+  --index: 4;
+}
+
+.sticky-card {
+  // padding-top: calc(var(--index) * 2.5rem);
+  top: calc(var(--index) * 4rem);
+}
